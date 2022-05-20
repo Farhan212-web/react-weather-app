@@ -1,0 +1,71 @@
+.left-panel {
+    width: 32%;
+    height: 100%;
+    background-color: #1E213A;
+}
+
+.left-panel::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url('../../public/imgs/Cloud-background.png');
+    background-size: 33%;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+
+.buttons {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    margin: 0 auto;
+}
+
+.main-panel {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+.weather-img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.temp-info {
+    position: absolute;
+    bottom: 0;
+    font-size: 2.3em;
+}
+
+.weather-display h2 {
+    text-align: center;
+    color: gray;
+}
+
+.weather-display .date-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.weather-display .current-loc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.loc-tag {
+    margin-left: 10px;
+}
+
