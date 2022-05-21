@@ -7,9 +7,30 @@
 }
 
 .forecast-box {
+    position: relative;
     height: 200px;
-    background-color: red;
-    width: 12%;
+    background-color: #1E213A;
+    width: 13%;
     text-align: center;
     font-size: 1vw;
+}
+
+.forecast-img {
+    width: 100%;
+}
+
+.forecast-img img {
+    width: 50%;
+}
+
+.forecast-info h4 {
+    display: inline-block;
+}
+
+.forecast-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0px;
 }

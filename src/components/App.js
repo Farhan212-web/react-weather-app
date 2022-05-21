@@ -7,15 +7,6 @@ import Forecast from "./Forecast";
 const App = () => {
 
     const [results, setResults] = useState([]);
-    const [img1, setImg1] = useState('');
-    const [img2, setImg2] = useState('');
-    const [img3, setImg3] = useState('');
-    const [img4, setImg4] = useState('');
-    const [img5, setImg5] = useState('');
-
-    const decideImg = (img, indx) => {
-
-    }
 
     useEffect(() => {
 
@@ -50,11 +41,7 @@ const App = () => {
                     />
 
                     <Forecast
-                        img1={img1}
-                        img2={img2}
-                        img3={img3}
-                        img4={img4}
-                        img5={img5}
+                        results={results}
                     />
                 </div>
             )
